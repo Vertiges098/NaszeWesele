@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasze Wesele</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Otylia & Mateusz</h1>
+      <p>Zapraszamy na nasze wesele!</p>
+    </header>
+
+    <nav>
+      <a href="#o-nas">O Nas</a>
+      <a href="#harmonogram">Harmonogram</a>
+      <a href="#miejsce">Miejsce</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section class="hero">
+      <h1>Dołącz do naszej wyjątkowej chwili!</h1>
+      <p>15 sierpień 2025 | Dom weselny "Nad strumykiem"</p>
+    </section>
+
+    <section class="section" id="o-nas">
+      <h2>O Nas</h2>
+      <p>
+        Poznaliśmy się w 2016 roku i od tamtej pory tworzymy wyjątkową
+        historię...
+      </p>
+    </section>
+
+    <section class="section" id="harmonogram">
+      <h2>Ślub</h2>
+      <p>14:00 - Ceremonia ślubna w Kościele pw. Miłosierdzia Bożego w Jaśle</p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2106.938780086061!2d21.449002206373244!3d49.729515049945704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473db43c35c450a7%3A0x202e2df64d2f1bbd!2sParafia%20pw.%20Mi%C5%82osierdzia%20Bo%C5%BCego%20w%20Ja%C5%9Ble!5e0!3m2!1spl!2spl!4v1740068563377!5m2!1spl!2spl"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section" id="miejsce">
+      <h2>Wesele</h2>
+      <p>Dom Weselny "Nad Strumykiem", Zawadka Brzostecka</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.128248124356!2d21.3872069760637!3d49.89639552710272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473da57d500b93eb%3A0x789dabd848ae876a!2sDom%20Weselny%20Nad%20Strumykiem!5e0!3m2!1spl!2spl!4v1740069371631!5m2!1spl!2spl"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Prosimy o potwierdzenie obecności do 5 lipca 2025 r.</p>
+      <p>Panna Młoda: 792 500 443 | Pan Młody: 793 935 502</p>
+    </section>
+
+    <section class="section" id="rsvp">
+      <h2>Potwierdzenie Obecności (RSVP)</h2>
+      <p>Prosimy o potwierdzenie obecności do 5 lipca 2025 r.</p>
+      <form
+        action="mailto:wesele@example.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Imię i nazwisko:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="guests">Liczba osób:</label><br />
+        <input
+          type="number"
+          id="guests"
+          name="guests"
+          min="1"
+          max="10"
+          required
+        /><br /><br />
+
+        <label for="message">Dodatkowe informacje (np. dieta):</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Otylia & Mateusz - Wszystkie prawa zastrzeżone</p>
+    </footer>
+  </body>
+</html>
